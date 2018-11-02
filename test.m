@@ -121,7 +121,7 @@ while(1)
   title('image to recognize')
 
   %reshape user selected picture to match a row of Data matrix
-  Vec=reshape(im,1,112,92);
+  Vec=reshape(im,1,112*92);
   %calulate projection vector of user selected picture
   projrec=Vec*V;
 
